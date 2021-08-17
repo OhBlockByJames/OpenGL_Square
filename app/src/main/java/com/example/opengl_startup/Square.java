@@ -29,9 +29,7 @@ public class Square {
         vertexBuffer = vbb.asFloatBuffer();
         vertexBuffer.put(vertices);
         vertexBuffer.position(0);
-        // short is 2 bytes, therefore we multiply
-        //the number if
-        // vertices with 2.
+        // short is 2 bytes, therefore we multiply the number if vertices with 2.
         ByteBuffer ibb
                 = ByteBuffer.allocateDirect(indices.length * 2);
         ibb.order(ByteOrder.nativeOrder());
