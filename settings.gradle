@@ -1,0 +1,2 @@
+rootProject.name = "openGL_StartUP"
+include ':app'
